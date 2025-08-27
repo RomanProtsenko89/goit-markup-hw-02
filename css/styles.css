@@ -85,7 +85,7 @@ body {
         letter-spacing: 0.02em;
         color: #434455;  
 }
-.Team {
+.team {
     background-color: #f4f4fd;
 }
 .team-title {
@@ -98,6 +98,7 @@ body {
      color: #2e2f42;
      background-color: #FFFFFF;
 }
+
 .team-iteam-title {
      font-weight: 500;
      font-size: 20px;
@@ -112,6 +113,9 @@ body {
      letter-spacing: 0.02em;
      color: #434455;
 
+}
+.team-list-iteam {
+     background-color: #FFFFFF;
 }
 .portfolio-title {
      text-transform: capitalize;
