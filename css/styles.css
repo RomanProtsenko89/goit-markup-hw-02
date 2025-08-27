@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 .header-logo {
-    font-family: "Releway" ,sans-serif;
+    font-family: "Releway" sans-serif;
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
@@ -17,7 +17,12 @@ body {
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
-     letter-spacing: 0.03em;        text-transform: uppercase;    color: #2e2f42;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #2e2f42;
+}
+.header-menu-list:hover, .header-menu-list:focus {
+     color: #404bbf;
 }
 .header-menu-link {
      font-weight: 500;
@@ -27,6 +32,11 @@ body {
      color: #2e2f42;
 
 }
+.header-address{
+     font-style: normal;
+
+}
+
 .header-address-link {
      font-weight: 400;
      font-size: 16px;
@@ -38,6 +48,7 @@ body {
     background-color: #2e2f42;
 }
 .hero-title {
+     text-align: center;
      font-weight: 700;
      font-size: 56px;
      line-height: 1.07;
@@ -45,12 +56,17 @@ body {
      color: #fff;
     }
 .hero-btn {
-     cursor: pointer;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.04em;
-     color: #fff;
+     font-family: "Roboto", sans-serif;
+      background-color: #4D5AE5;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+}
+.hero-btn:hover, .hero-btn:focus {
+     background-color: #404BBF;
 }
 .quality-title-white {
     color: #fff;
@@ -60,6 +76,7 @@ body {
  font-size: 20px;
  line-height: 1.2;
  letter-spacing: 0.02em;
+ color: #2e2f42;
 }
 .quality-list-text {
     font-weight: 400;
@@ -72,11 +89,14 @@ body {
     background-color: #f4f4fd;
 }
 .team-title {
+     text-transform: capitalize;
+     text-align: center;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     background-color: #FFFFFF;
 }
 .team-iteam-title {
      font-weight: 500;
@@ -94,6 +114,8 @@ body {
 
 }
 .portfolio-title {
+     text-transform: capitalize;
+     text-align: center;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
@@ -118,7 +140,7 @@ body {
     background: #2e2f42;
 }
 .footer-logo {
-     font-family: "Raleway", sans-serif
+     font-family: "Raleway", sans-serif;
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
@@ -127,7 +149,7 @@ body {
      color: #4d5ae5;
 }
 .footer-logo-italik {
-     font-family: "Raleway", sans-serif
+     font-family: "Raleway", sans-serif;
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
